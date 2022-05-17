@@ -99,8 +99,7 @@ def main():
     print("Argument [data_file_path]: %s" % args.data_file_path)
     print("Argument [caller_run_id]: %s" % args.caller_run_id)
     print("Argument [dataset_name]: %s" % args.dataset_name)
-    #my test commit
-    print("Argument [dataset_name]: %s" % args.dataset_name)
+    
 
 
     model_name = args.model_name
@@ -174,7 +173,6 @@ def main():
 
     run.complete()
 
-    #this is a test commit final test
 
 if __name__ == '__main__':
     main()
