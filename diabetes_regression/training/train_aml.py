@@ -99,6 +99,8 @@ def main():
     print("Argument [data_file_path]: %s" % args.data_file_path)
     print("Argument [caller_run_id]: %s" % args.caller_run_id)
     print("Argument [dataset_name]: %s" % args.dataset_name)
+    #Testing a commit
+    print("Argument [dataset_name]: %s" % args.dataset_name)
 
     model_name = args.model_name
     step_output_path = args.step_output
